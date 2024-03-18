@@ -1,0 +1,58 @@
+.modal-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Darker backdrop for an intense focus on modal */
+}
+
+.modal {
+  border-radius: 8px;
+  padding: 2.5rem;
+  background: linear-gradient(to right, #00203f, #003566); /* Dark blue gradient for a cooler, deep sea feel */
+  width: 30em;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5); /* Enhanced shadow for more depth */
+}
+
+.btn-submit, .btn-cancel {
+  background-color: #005f73; /* Unified button color for a dark blue theme */
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 10px; /* Added space around buttons */
+}
+
+.btn-cancel {
+  background-color: #001d3d; /* A different shade of dark blue for the cancel button */
+}
+
+.close {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3.5rem;
+}
+
+.modal-content {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: #d1e8e2; /* Lighter text color for contrast against dark background */
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center; /* Centering buttons */
+  align-items: center;
+  font-size: 3.2rem;
+}
